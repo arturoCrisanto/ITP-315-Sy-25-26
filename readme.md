@@ -12,10 +12,14 @@ You are managing a simple student list. Use `Spread Operator`, `Destructuring`,`
 const sectionA = ["Anna", "Brian", "Charlie"];
 const sectionB = ["Diana", "Ethan"];
 
-const student = {
-  name: "Maria",
-  age: 20,
-  course: "Computer Science",
+const car = {
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2020,
+  owner: {
+    name: "Alex",
+    age: 30,
+  },
 };
 
 const grades = [75, 80, 90];
@@ -33,9 +37,9 @@ const grades = [75, 80, 90];
 
 ### 2. Destructuring
 
-- Get the `name` and `course` from the student object using destructuring.
+- Use object destructuring to extract `brand` and `model`.
 
-- Rename `course` into `major`.
+- Use nested destructuring to get the owner’s `name` and `age`.
 
 ### 3. Mapping + Arrow Function
 
@@ -53,6 +57,7 @@ The output should be:
 
 ```bash
 All Students: [Anna, Brian, Charlie, Diana, Ethan, Faith]
-Student: Maria, Major: Computer Science
+Car: Toyota Corolla (2020)
+Owner: Alex, Age: 30
 Updated Grades: [80, 85, 95]
 ```

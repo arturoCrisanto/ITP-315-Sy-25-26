@@ -1,10 +1,14 @@
 const sectionA = ["Anna", "Brian", "Charlie"];
 const sectionB = ["Diana", "Ethan"];
 
-const student = {
-  name: "Maria",
-  age: 20,
-  course: "Computer Science",
+const car = {
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2020,
+  owner: {
+    name: "Alex",
+    age: 30,
+  },
 };
 
 const grades = [75, 80, 90];
