@@ -1,56 +1,37 @@
-# Javascript ES6
+# 📘 Integrative Programming
 
-## Scenario
-
-You are managing a simple student list. Use `Spread Operator`, `Destructuring`,` Mapping`, and `Arrow Functions` to solve the following tasks.
-
----
-
-## Starter Code
-
-```javascript
-const sectionA = ["Anna", "Brian", "Charlie"];
-const sectionB = ["Diana", "Ethan"];
-
-const student = {
-  name: "Maria",
-  age: 20,
-  course: "Computer Science",
-};
-
-const grades = [75, 80, 90];
-```
+Welcome to the **Integrative Programming** repository!  
+This repo contains all the **projects, activities, and exams** for this Subject for **ITP 315L Sy 2025-2026**.
 
 ---
 
-## Task
+## 📚 About the Subject
 
-### 1. Spread Operator
+Integrative Programming focuses on combining different programming concepts and technologies to build functional applications.
 
-- Combine `sectionA` and `sectionB` into one array called `allStudents`.
+---
 
-- Add `"Faith"` at the end while combining.
+## 📂 Repository Contents
 
-### 2. Destructuring
+- `activities/` → All class activities
+- `projects/` → Project requirements and code samples
+- `exams/` → Exam instructions and files
 
-- Get the `name` and `course` from the student object using destructuring.
+---
 
-- Rename `course` into `major`.
+## 🎯 How to Use
 
-### 3. Mapping + Arrow Function
+1. Clone or download this repository.
+2. Open each folder to find the instructions and files.
+3. Follow the guidelines provided in the activity or project.
+4. Submit your outputs as instructed in class.
 
-- Use `.map() `with an arrow function to `add 5` bonus points to each grade.
+---
 
-- Store the result in a new array called `updatedGrades`.
+## 👨‍🏫 Note from Instructor
 
-### 4. Final Output
+I am your instructor for **Integrative Programming**.  
+All materials, tasks, and announcements related to the course will be available here.  
+Stay updated and check the repo regularly ✅
 
-- Name your file to `surname.js`
-
-The output should be:
-
-```bash
-All Students: [Anna, Brian, Charlie, Diana, Ethan, Faith]
-Student: Maria, Major: Computer Science
-Updated Grades: [80, 85, 95]
-```
+---
