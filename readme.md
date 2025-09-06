@@ -25,27 +25,29 @@ const grades = [75, 80, 90];
 
 ## Task
 
-1. Spread Operator
+### 1. Spread Operator
 
 - Combine `sectionA` and `sectionB` into one array called `allStudents`.
 
 - Add `"Faith"` at the end while combining.
 
-2. Destructuring
+### 2. Destructuring
 
 - Get the `name` and `course` from the student object using destructuring.
 
 - Rename `course` into `major`.
 
-3. Mapping + Arrow Function
+### 3. Mapping + Arrow Function
 
 - Use `.map() `with an arrow function to `add 5` bonus points to each grade.
 
 - Store the result in a new array called `updatedGrades`.
 
-4. Final Output
+### 4. Final Output
 
-Print the following to the console:
+- Name your file to `surname.js`
+
+The output should be:
 
 ```bash
 All Students: [Anna, Brian, Charlie, Diana, Ethan, Faith]
