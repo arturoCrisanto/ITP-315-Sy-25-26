@@ -47,6 +47,8 @@ const grades = [75, 80, 90];
 
 - Name your file to `surname.js`
 
+---
+
 The output should be:
 
 ```bash
