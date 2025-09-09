@@ -65,3 +65,7 @@ Updated Grades: [80, 85, 95]
 ```bash
 Set-ExecutionPolicy RemoteSigned -Scope Process
 ```
+
+```bash
+C:\Program Files\nodejs\
+```
