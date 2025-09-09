@@ -61,3 +61,7 @@ Car: Toyota Corolla (2020)
 Owner: Alex, Age: 30
 Updated Grades: [80, 85, 95]
 ```
+
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
