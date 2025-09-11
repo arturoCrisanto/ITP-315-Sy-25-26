@@ -2,15 +2,16 @@
 
 ## (Using git push, git branch, and git checkout)
 
-1. Open VS Code and Your Project
+### 1. Open VS Code and Your Project
 
 - Launch Visual Studio Code.
 
 - Open the folder that contains your project (`File → Open Folder`).
+- or open your folder and type `cmd `and `code .` to open VSCode
 
-2. Initialize Git (if not yet initialized)
+### 2. Initialize Git (if not yet initialized)
 
-- Open the Terminal in VS Code (`Ctrl + ~`).
+- Open the Terminal in VS Code (`Ctrl + Shift + ,`).
 
 - Run this command:
 
@@ -26,7 +27,7 @@ git init
 git remote add origin https://github.com/your-username/your-repo.git
 ```
 
-3. Check the Current Branch
+### 3. Check the Current Branch
 
 - Run:
 
@@ -36,7 +37,7 @@ git branch
 
 👉 You will see your current branch (usually `main` or `master`).
 
-4. Create a New Branch
+### 4. Create a New Branch
 
 - Run:
 
@@ -46,7 +47,7 @@ git branch feature-branch
 
 👉 This creates a new branch called `feature-branch`.
 
-5. Switch Between Branches
+### 5. Switch Between Branches
 
 - To switch to your new branch:
 
@@ -64,7 +65,7 @@ git branch
 
 The active branch will have a `*` next to it.
 
-6. Make Changes and Commit
+### 6. Make Changes and Commit
 
 - Edit any file in VS Code.
 
@@ -80,7 +81,7 @@ git add .
 git commit -m "Added a new Feature"
 ```
 
-7. Push Branch to Remote Repository
+### 7. Push Branch to Remote Repository
 
 - Run:
 
@@ -104,7 +105,7 @@ git checkout main
 git pull origin main
 ```
 
-9. Merge (Optional for Lesson)
+### 9. Merge (Optional for Lesson)
 
 - If you want to merge your branch into main:
 
