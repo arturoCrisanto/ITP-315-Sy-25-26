@@ -12,7 +12,7 @@ Instructions:
 
 2. Use the given mockup data below (do not change it).
 
-3. Save your file as: Exam_Lastname.js
+3. Save your file as: `Exam_Lastname.js`
 
 4. Run and test your program before submitting.
 
