@@ -5,12 +5,14 @@
 Students will:
 
 > Create their first Node.js project
+
 > Install Express.js
+
 > Build and run a simple web server that displays a message in the browser
 
 ---
 
-[![CODING](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDcxdDhjZTJqZ3E0bzhudHIzcHp5d2luaXF3dHd2aW9zNGc1bzZqeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif)](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDcxdDhjZTJqZ3E0bzhudHIzcHp5d2luaXF3dHd2aW9zNGc1bzZqeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif)
+[![CODING](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eGM3d3kwaGg3YW1mMjg1ZTBybjc1anppcGR0OGw1YWN4YXoxNmhjeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31GniVybqb64PdGDbc/giphy.gif)](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eGM3d3kwaGg3YW1mMjg1ZTBybjc1anppcGR0OGw1YWN4YXoxNmhjeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31GniVybqb64PdGDbc/giphy.gif)
 
 ## Instructions (Step-by-Step)
 
@@ -70,3 +72,4 @@ Server is running at http://localhost:3000
 
 Add another route` /about` that displays:
 `"This is the About Page."`
+[![CODING](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dTZpMW9jamgzd2Y5cWMwNGN0eng2bGY4dWpwaGpqenQ2N3ZhcjdleCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HzPtbOKyBoBFsK4hyc/giphy.gif)](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dTZpMW9jamgzd2Y5cWMwNGN0eng2bGY4dWpwaGpqenQ2N3ZhcjdleCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HzPtbOKyBoBFsK4hyc/giphy.gif)
