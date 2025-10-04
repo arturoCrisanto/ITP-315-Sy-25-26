@@ -12,7 +12,7 @@ Students will:
 
 ---
 
-[![CODING](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eGM3d3kwaGg3YW1mMjg1ZTBybjc1anppcGR0OGw1YWN4YXoxNmhjeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31GniVybqb64PdGDbc/giphy.gif)](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eGM3d3kwaGg3YW1mMjg1ZTBybjc1anppcGR0OGw1YWN4YXoxNmhjeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31GniVybqb64PdGDbc/giphy.gif)
+[![CODING](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG1qcGF5dW90cTFudTZ6ajltbmVlMTZkZjlxMHR4YzM0ejNtbHdmdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ws6T5PN7wHv3cY8xy8/giphy.gif)](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG1qcGF5dW90cTFudTZ6ajltbmVlMTZkZjlxMHR4YzM0ejNtbHdmdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ws6T5PN7wHv3cY8xy8/giphy.gif)
 
 ## Instructions (Step-by-Step)
 
