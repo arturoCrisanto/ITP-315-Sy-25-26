@@ -72,4 +72,3 @@ Server is running at http://localhost:3000
 
 Add another route` /about` that displays:
 `"This is the About Page."`
-[![CODING](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dTZpMW9jamgzd2Y5cWMwNGN0eng2bGY4dWpwaGpqenQ2N3ZhcjdleCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HzPtbOKyBoBFsK4hyc/giphy.gif)](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dTZpMW9jamgzd2Y5cWMwNGN0eng2bGY4dWpwaGpqenQ2N3ZhcjdleCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HzPtbOKyBoBFsK4hyc/giphy.gif)
