@@ -72,3 +72,8 @@ Server is running at http://localhost:3000
 
 Add another route` /about` that displays:
 `"This is the About Page."`
+
+## Paste this if you encounter a Problem with npm
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
