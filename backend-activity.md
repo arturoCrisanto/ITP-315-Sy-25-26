@@ -4,6 +4,8 @@
 
 Students will collaborate to create a basic Express.js backend using **Express**, **Nodemon**, and **Dotenv**. Each member will create their own route that introduces themselves — making this both a coding and get-to-know-you activity
 
+[![meme gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXFiOTJhY213ZHlraXBrNDVrOGZiNXF4b2x4cDlxc2tiYWFmc3lxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/111ebonMs90YLu/giphy.gif)](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXFiOTJhY213ZHlraXBrNDVrOGZiNXF4b2x4cDlxc2tiYWFmc3lxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/111ebonMs90YLu/giphy.gif)
+
 🧩 Instructions
 
 1. Form a group.
