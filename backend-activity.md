@@ -2,13 +2,15 @@
 
 ## Objective:
 
-Students will collaborate to create a basic Express.js backend using Express, Nodemon, and Dotenv. Each member will create their own route that introduces themselves — making this both a coding and get-to-know-you activity
+Students will collaborate to create a basic Express.js backend using **Express**, **Nodemon**, and **Dotenv**. Each member will create their own route that introduces themselves — making this both a coding and get-to-know-you activity
 
 🧩 Instructions
 
 1. Form a group.
    Each group will work together on a shared backend project.
    (No specific roles — everyone codes!)
+
+---
 
 2. Project Setup
 
@@ -20,6 +22,8 @@ Students will collaborate to create a basic Express.js backend using Express, No
      - express
      - nodemon
      - dotenv
+
+---
 
 3. Build the server
    Inside `server.js:`
@@ -35,6 +39,8 @@ app.listen(PORT, () => {
 });
 ```
 
+---
+
 4. Each Member Creates a Personal Route
    Every group member should create their `own route` with their `name` and `short description`.
    Example:
@@ -48,6 +54,8 @@ app.get("/ruz", (req, res) => {
 - Example route names: /anna, /mark, /josh, /maria
 
 - Each member `commits` and `pushes` their route to the `shared GitHub repo`.
+
+---
 
 5. Test Your Routes
 
