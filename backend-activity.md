@@ -77,3 +77,7 @@ If the group finishes early:
 - Add a homepage route / that lists all members.
 
 - Use `res.json()` instead of `res.send()` to return data in JSON format.
+
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
