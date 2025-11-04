@@ -11,7 +11,7 @@
 
 ### 2. Initialize Git (if not yet initialized)
 
-- Open the Terminal in VS Code (`Ctrl + Shift + ,`).
+- Open the Terminal in VS Code (`Ctrl + `` (backtick)` or `Ctrl + Shift + `` for new terminal).
 
 - Run this command:
 
