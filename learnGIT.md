@@ -91,7 +91,7 @@ git push origin feature-branch
 
 👉 This uploads your new branch to GitHub.
 
-8. Go Back to Main Branch
+### 8. Go Back to Main Branch
 
 - Switch back to `main`:
 
