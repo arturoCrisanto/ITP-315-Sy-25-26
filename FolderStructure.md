@@ -73,7 +73,7 @@ export const = users;
 
 # Bonus:
 
-Add a seperate Route for selecting a single user
+create a Route and a Controller for selecting a single user
 Example route:
 
 ```bash
