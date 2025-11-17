@@ -57,7 +57,7 @@ export const = users;
 
 ---
 
-# Instructions for Students
+# Instructions
 
 - Organize your project following the **folder structure** above.
 
