@@ -2,7 +2,7 @@
 
 ## Objective:
 
-Create a **backend API** using **Express.js**, organized with controllers, models, and routes, using predefined mock data. Configure `dotenv`, `nodemon`, and a proper `.gitignore.` Submit via `GitHub`.
+Create a **backend API** using **Express.js**, organized with **controllers**, **models**, and **routes**, using predefined mock data. Configure `dotenv`, `nodemon`, and a proper `.gitignore.` Submit via `GitHub`.
 
 ```bash
 project-name/
