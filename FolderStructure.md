@@ -52,7 +52,7 @@ const users = [
   { id: 20, name: "Tina", email: "tina@example.com" },
 ];
 
-export const = users;
+export default users;
 ```
 
 ---
