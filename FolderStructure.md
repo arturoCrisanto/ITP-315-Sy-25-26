@@ -90,4 +90,9 @@ Expected outcome
 }
 ```
 
+# If you encounter any Error for `npm`
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
+
 ![good luck](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWtrZDltcG4yOGwxb3g0dGh3MHRxa3hndWc2dThhaWxoNnZmbjFuYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gfZ9ClheLUDQKIJmEH/giphy.gif)
