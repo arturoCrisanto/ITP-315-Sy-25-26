@@ -1,42 +1,136 @@
-## Backend Development Semi-Finals Instructions (Express.js)
+# Books API - Express.js Backend
 
-For this exam, you must build a backend application using Express.js, following an MVC structure (Models, Controllers, Routes).
-Install and use the following packages:
+A RESTful API for managing a collection of books using Express.js with MVC architecture and predefined data.
 
-- express
+## Features
 
-- dotenv
+- CRUD operations for books (Create, Read, Update, Delete)
+- MVC architecture (Models, Controllers, Routes)
+- Predefined book data (no database required)
+- Input validation and error handling
+- Clean JSON responses
 
-- nodemon
+## Tech Stack
 
-You Must use the Predifined Data Given in the Models
+- **express** - Web framework
+- **dotenv** - Environment variable management
+- **nodemon** - Development auto-reload
 
-- `user.js`
-- `cars.js`
+## Project Structure
 
-## Required Endpoints
+```
+├── models/
+│   ├── books.js          # Predefined book data
+│   └── Book.js           # Book model schema
+├── Controllers/
+│   └── booksController.js # Business logic
+├── routes/
+│   └── bookRoutes.js      # API endpoints
+├── helpers/
+│   └── responseHelper.js  # Response utilities
+├── config/
+│   └── database.js        # Database configuration
+├── server.js              # Entry point
+└── .env                   # Environment variables
+```
 
-Your backend must include the following` GET` routes:
+## Installation
 
-- **GET /user**s → return all users
+1. Clone the repository
+2. Install dependencies:
 
-- **GET /cars** → return all cars
+```bash
+npm install
+```
 
-- **GET /all** → return all users and all cars in a single JSON response
+3. Create a `.env` file:
 
-## Exam Guidelines
+```
+PORT=3000
+NODE_ENV=development
+```
 
-- Use a clear folder structure: `models/`, `controllers/`, `routes/`.
+4. Start the server:
 
-- Models must export the predefined static data exactly as listed.
+```bash
+npm start
+```
 
-- Controllers must handle data retrieval.
+## API Endpoints
 
-- Routes must call their corresponding controllers.
+### Get All Books
 
-- **nodemon** must be used to run the server.
+**GET** `/api/books`
 
-- **dotenv** must manage your PORT.
+Returns all books in the collection.
 
-- Responses must be in **JSON** format.
+### Create Book
 
+**POST** `/api/books`
+
+Request body:
+
+```json
+{
+  "title": "Book Title",
+  "author": "Author Name",
+  "genre": "Genre",
+  "year_published": 2024
+}
+```
+
+### Update Book
+
+**PUT** `/api/books/:id`
+
+Request body (all fields optional for partial update):
+
+```json
+{
+  "title": "Updated Title",
+  "author": "Updated Author",
+  "genre": "Updated Genre",
+  "year_published": 2024
+}
+```
+
+### Delete Book
+
+**DELETE** `/api/books?id={bookId}`
+
+Deletes a book by ID using query parameter.
+
+## Response Format
+
+All responses follow this structure:
+
+**Success:**
+
+```json
+{
+  "success": true,
+  "message": "Operation successful",
+  "data": { ... }
+}
+```
+
+**Error:**
+
+```json
+{
+  "success": false,
+  "message": "Error description",
+  "error": { ... }
+}
+```
+
+## Development
+
+The application uses predefined data from `models/books.js`. All operations are performed in-memory on the books array.
+
+## Notes
+
+- All book fields are required when creating a book
+- Update operations support partial updates (only provided fields are updated)
+- Duplicate books (same title and author) are not allowed
+- IDs are auto-generated based on array length
