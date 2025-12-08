@@ -7,6 +7,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT;
 
+// middleware para mag parse it JSON body
 app.use(express.json());
 app.use("/api", bookRoutes);
 
