@@ -1,10 +1,8 @@
 import express from "express";
 import dotenv from "dotenv";
 import bookRoutes from "./routes/bookRoutes.js";
-import connectDB from "./config/database.js";
 
 dotenv.config();
-connectDB();
 
 const app = express();
 const PORT = process.env.PORT;
