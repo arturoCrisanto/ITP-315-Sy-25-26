@@ -47,11 +47,11 @@ export const updateBook = (req, res) => {
   }
   books[bookIndex] = {
     ...books[bookIndex],
-    title: title,
-    author: author,
-    genre: genre,
-    year_published: year_published,
+    title: title || books[bookIndex].title,
+    author: author || books[bookIndex].author,
+    genre: genre || books[bookIndex].genre,
+    year_published: year_published || books[bookIndex].year_published,
   };
-  const updatedBook = books[bookIndex];
-  successResponse(res, 200, "Book updated successfully", updatedBook);
+
+  successResponse(res, 200, "Book updated successfully", books[bookIndex]);
 };
