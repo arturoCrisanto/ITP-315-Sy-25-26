@@ -1,42 +1,143 @@
-## Backend Development Semi-Finals Instructions (Express.js)
+# Books API - Express.js Backend
 
-For this exam, you must build a backend application using Express.js, following an MVC structure (Models, Controllers, Routes).
-Install and use the following packages:
+Usa nga RESTful API para ha pag-manage han mga libro gamit an Express.js na may MVC architecture ngan MongoDB database.
 
-- express
+## Features
 
-- dotenv
+- CRUD operations para han mga libro (Create, Read, Update, Delete)
+- MVC architecture (Models, Controllers, Routes)
+- MongoDB database integration
+- Input validation ngan error handling
+- Clean JSON responses
+- Mongoose para han database operations
 
-- nodemon
+## Tech Stack
 
-You Must use the Predifined Data Given in the Models
+- **express** - Web framework
+- **mongoose** - MongoDB object modeling
+- **dotenv** - Environment variable management
+- **nodemon** - Development auto-reload
 
-- `user.js`
-- `cars.js`
+## Project Structure
 
-## Required Endpoints
+```
+├── models/
+│   ├── books.js          # Predefined book data (para han testing)
+│   └── Book.js           # Mongoose schema para han libro
+├── Controllers/
+│   └── booksController.js # Business logic ngan database operations
+├── routes/
+│   └── bookRoutes.js      # API endpoints
+├── helpers/
+│   └── responseHelper.js  # Response utilities
+├── config/
+│   └── database.js        # MongoDB connection setup
+├── server.js              # Entry point
+└── .env                   # Environment variables
+```
 
-Your backend must include the following` GET` routes:
+## Installation
 
-- **GET /user**s → return all users
+1. I-clone an repository
+2. Install an dependencies:
 
-- **GET /cars** → return all cars
+```bash
+npm install
+```
 
-- **GET /all** → return all users and all cars in a single JSON response
+3. Himoa hin `.env` file:
 
-## Exam Guidelines
+```
+PORT=3000
+NODE_ENV=development
+MONGODB_URI=mongodb://localhost:27017/books_db
+```
 
-- Use a clear folder structure: `models/`, `controllers/`, `routes/`.
+4. I-start an MongoDB server
+5. I-start an application:
 
-- Models must export the predefined static data exactly as listed.
+```bash
+npm start
+```
 
-- Controllers must handle data retrieval.
+## API Endpoints
 
-- Routes must call their corresponding controllers.
+### Kuhaon an Tanan nga Libro
 
-- **nodemon** must be used to run the server.
+**GET** `/api/books`
 
-- **dotenv** must manage your PORT.
+Nagbabalik han tanan nga libro tikang ha database.
 
-- Responses must be in **JSON** format.
+### Mag-create hin Bag-o nga Libro
 
+**POST** `/api/books`
+
+Request body:
+
+```json
+{
+  "title": "Book Title",
+  "author": "Author Name",
+  "genre": "Genre",
+  "year_published": 2024
+}
+```
+
+### I-update an Libro
+
+**PUT** `/api/books/:id`
+
+Request body (pwede partial update):
+
+```json
+{
+  "title": "Updated Title",
+  "author": "Updated Author",
+  "genre": "Updated Genre",
+  "year_published": 2024
+}
+```
+
+### I-delete an Libro
+
+**DELETE** `/api/books?id={bookId}`
+
+Nag-dedelete hin libro base han ID gamit an query parameter.
+
+## Response Format
+
+An tanan nga response kay naka-sunod hini nga structure:
+
+**Success:**
+
+```json
+{
+  "success": true,
+  "message": "Operation successful",
+  "data": { ... }
+}
+```
+
+**Error:**
+
+```json
+{
+  "success": false,
+  "message": "Error description",
+  "error": { ... }
+}
+```
+
+## Development Notes
+
+- An application nag-uusa han MongoDB para han persistent storage
+- Tanan nga operations kay async kay database operations ini
+- An Mongoose schema nag-validate han data bago mag-save
+- Try-catch blocks para han proper error handling
+
+## Important Reminders
+
+- Kinahanglan tanan nga libro fields pag mag-create
+- An update operations nag-support han partial updates
+- Nag-validate kun an libro kay existing na ha database
+- MongoDB ID kay automatically generated
